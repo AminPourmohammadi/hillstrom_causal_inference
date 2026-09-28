@@ -1,0 +1,26 @@
+# Data (not redistributed — see data/README.md for how to get it)
+data/*.csv
+data/*.csv.gz
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+
+# OS / editor cruft
+.DS_Store
+.vscode/
+.idea/
+
+# Notebook execution artifacts some editors add
+.virtual_documents/
