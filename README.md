@@ -28,9 +28,6 @@ Targeting the top 50% of customers by predicted uplift captures about 90% of the
 ## Notebooks
 
 - **`hillstrom_uplift.ipynb`** — the main walkthrough. Plain-English explanations before the math, explicit step-by-step code (no comprehensions or one-liners), and every result checked against a plot or a second calculation.
-- **`hillstrom_uplift_advanced.ipynb`** — a denser version for a technical audience: adds Lin (2013) regression adjustment, the X-learner, stability checks across five random train/test splits, and a bootstrap uncertainty band on the profit curve.
-
-Start with the main notebook if you're learning uplift modeling; read the advanced one for the fuller toolkit.
 
 ## Setup
 
@@ -68,6 +65,8 @@ jupyter notebook hillstrom_uplift.ipynb
 - Heterogeneous treatment effects: S-learner, T-learner, X-learner (advanced notebook), causal forest via `econml.dml.CausalForestDML` (Wager & Athey, 2018)
 - Model evaluation: uplift-by-decile analysis, Qini curves, Qini AUC (`scikit-uplift`)
 - Decision-making: a profit curve with bootstrap uncertainty (advanced notebook) and cost-sensitivity analysis
+
+- I've use AI for building this, but the analysis and choice of techniques is mine. 
 
 ## Data source
 
